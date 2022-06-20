@@ -36,7 +36,6 @@
         }
         
         body {
-            line-height: inherit;
             margin: 0;
             padding: 0;
             background-color: transparent;
@@ -75,7 +74,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            width: 600%;
+            width: 800%;
             height: 100%;
             z-index: 100;
             transition: left 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -112,6 +111,14 @@
         }
         
         .slide-6 {
+            background-color: rgb(86 165 138);
+        }
+        
+        .slide-7 {
+            background-color: rgb(195 120 67);
+        }
+        
+        .slide-8 {
             background-color: #7E7D7F;
         }
         /*===================
@@ -160,6 +167,14 @@
             left: 73%;
         }
         
+        .btn:nth-of-type(7) {
+            left: 80%;
+        }
+        
+        .btn:nth-of-type(8) {
+            left: 87%;
+        }
+        
         .btn:hover {
             transform: scale(1.4);
         }
@@ -199,6 +214,14 @@
         
         input[type="radio"]:checked#slide-6-trigger~div.slide-wrapper>div#slide-role {
             left: -500%;
+        }
+        
+        input[type="radio"]:checked#slide-7-trigger~div.slide-wrapper>div#slide-role {
+            left: -600%;
+        }
+        
+        input[type="radio"]:checked#slide-8-trigger~div.slide-wrapper>div#slide-role {
+            left: -700%;
         }
         /* button logic */
         
@@ -243,6 +266,14 @@
             .btn:nth-of-type(6) {
                 left: 90%;
                 bottom: 52%;
+            }
+            .btn:nth-of-type(7) {
+                left: 90%;
+                bottom: 46%;
+            }
+            .btn:nth-of-type(8) {
+                left: 90%;
+                bottom: 40%;
             }
         }
         
@@ -397,6 +428,10 @@
         <label class="btn" for="slide-5-trigger"></label>
         <input type="radio" name="slider" id="slide-6-trigger" class="trigger">
         <label class="btn" for="slide-6-trigger"></label>
+        <input type="radio" name="slider" id="slide-7-trigger" class="trigger">
+        <label class="btn" for="slide-7-trigger"></label>
+        <input type="radio" name="slider" id="slide-8-trigger" class="trigger">
+        <label class="btn" for="slide-8-trigger"></label>
 
         <!-- SLIDES -->
         <div class="slide-wrapper">
@@ -419,7 +454,7 @@
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="text-center d-md-block">
 
-                                <img class="icon  d-md-inline" src="https://raw.githubusercontent.com/aaaaa654/aaaaa654.github.io/main/cat.png">
+                                <img class="icon  d-md-inline" src="https://raw.githubusercontent.com/curiousAhmed/playlist/main/cat.png">
                                 <p class="lead"> imagine if we have a pet cat and we name it something like 'pepper' or 'sparkles' or something.....i'd have to take care of it as well.....oof .....But it'd be fun ..</p>
                             </div>
                         </div>
@@ -427,7 +462,7 @@
 
                 </div>
                 <div class="slide slide-3">
-                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 4rem;">
+                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="text-center d-md-block">
 
@@ -439,7 +474,7 @@
                     </section>
                 </div>
                 <div class="slide slide-4">
-                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 5rem;">
+                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="text-center d-md-block">
 
@@ -450,7 +485,7 @@
                     </section>
                 </div>
                 <div class="slide slide-5">
-                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 4rem;">
+                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="text-center d-md-block">
 
@@ -461,6 +496,28 @@
                     </section>
                 </div>
                 <div class="slide slide-6">
+                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
+                        <div class="col-md-6 order-1 order-md-2">
+                            <div class="text-center d-md-block">
+
+                                <img class="icon  d-md-inline" src="https://raw.githubusercontent.com/aaaaa654/aaaaa654.github.io/main/dancing.png">
+                                <p class="lead"> Imagine slow dancing under a meteor shower while 'your favourite playlist' is playing and we lose all sense of time and space, only you, me and the stars remain </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="slide slide-7">
+                    <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
+                        <div class="col-md-6 order-1 order-md-2">
+                            <div class="text-center d-md-block">
+
+                                <img class="icon  d-md-inline" src="https://raw.githubusercontent.com/aaaaa654/aaaaa654.github.io/main/moon.png">
+                                <p class="lead"> Imagine looking at the moon while cuddling at the bank of a very calm lake while the moon's light cuts through all the darkness in us, and around us, leaving only serenity </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="slide slide-8">
                     <section id="ff" class="container-fluid px-0  mx-0" style="padding-top: 7rem;">
                         <div class="col-md-6 order-1 order-md-2">
                             <div class="text-center d-md-block">
